@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca05d27a-e184-4a44-9fc4-076be3081d69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aula 07 - Projeto/com/Projeto/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Projeto/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aula 07 - Projeto/Projeto/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projeto/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/principal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +40,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/admin/Documents/Programação Orientada a Objetos/Aula 01 - Linguagem Java"
+    "last_opened_file_path": "C:/Users/admin/Documents/Programação Orientada a Objetos/Aula 07 - Projeto"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projeto.Main" />
+      <option name="MAIN_CLASS_NAME" value="principal.Main" />
       <module name="Aula 07 - Projeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Projeto.*" />
+          <option name="PATTERN" value="principal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
