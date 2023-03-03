@@ -1,4 +1,4 @@
-package principal;
+package concepts;
 
 public class Pessoa {
     private String name;

@@ -1,4 +1,4 @@
-package principal;
+package concepts;
 public class Main {
     public static void main(String[] args){
         Pessoa diego = new Pessoa("Diego", 35);
