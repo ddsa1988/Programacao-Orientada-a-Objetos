@@ -53,7 +53,12 @@ public class BankAccount {
         return true;
     }
 
-    public void info(){
-
+    public String info() {
+        return "BankAccount{" +
+                "personName='" + personName + '\'' +
+                ", accountNumber=" + accountNumber +
+                ", balance=" + balance +
+                ", limit=" + limit +
+                '}';
     }
 }
