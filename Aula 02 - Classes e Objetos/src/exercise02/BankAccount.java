@@ -45,12 +45,37 @@ public class BankAccount {
         return this.limit;
     }
 
-    public boolean withDraw(){
-        return true;
-    }
+    public boolean withDraw(float value) {
+        try{
+            if(value > this.limit){
+                throw new Exception("Value above the client's limit!");
+            }
 
+            if((this.getBalance() - value) < 0){
+                throw new Exception("Value above the client's balance!");
+            }
+
+            this.balance -= value;
+            return true;
+
+        }catch (Exception error){
+            System.out.println(error);
+            return false;
+        }
+    }
     public boolean deposit(float value){
-        return true;
+        try {
+            if(value <= 0){
+                throw new Exception("Value must be greater than zero!");
+            }
+
+            this.balance += value;
+            return true;
+
+        }catch (Exception error){
+            System.out.println(error);
+            return false;
+        }
     }
 
     public String info() {
